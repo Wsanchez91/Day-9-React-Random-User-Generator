@@ -1,18 +1,24 @@
 import { useState } from "react";
 import "./App.css";
 
-function App() {
+const RandomUser = ()=>{
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
+
+
+  
+}
+
+
+function App() {
+  
+
   return (
     <>
       <div>
-        <h1>Hello World!</h1>
-        <fieldset>
-          
-        </fieldset>
+        <RandomUser />
       </div>
     </>
   );
